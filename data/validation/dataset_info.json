@@ -1,0 +1,64 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "panda",
+  "dataset_size": 205706316,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/facebook/panda@bfebd41171043bec836113629cbb5480db40b250/train.jsonl": {
+      "num_bytes": 193862596,
+      "checksum": null
+    },
+    "hf://datasets/facebook/panda@bfebd41171043bec836113629cbb5480db40b250/valid.jsonl": {
+      "num_bytes": 21683577,
+      "checksum": null
+    }
+  },
+  "download_size": 215546173,
+  "features": {
+    "original": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "selected_word": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target_attribute": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "perturbed": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "perturbed_ru": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 421252489,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 185008550,
+      "num_examples": 94966,
+      "dataset_name": "panda"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 20697766,
+      "num_examples": 10551,
+      "dataset_name": "panda"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
